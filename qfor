@@ -1,0 +1,6 @@
+#!/bin/bash
+
+changepath=$(forwardSearch $1 $2)
+if ! [ -z $changepath ]; then
+	cd $changepath
+fi
